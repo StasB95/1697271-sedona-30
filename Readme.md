@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Стас Босевской](https://up.htmlacademy.ru/htmlcss/30/user/1697271).
-* Наставник: Дмитрий (sench) Железцов.
+* Наставник: Дмитрий (smiley) Железцов. (https://htmlacademy.ru/profile/sench)
 
 ---
 
