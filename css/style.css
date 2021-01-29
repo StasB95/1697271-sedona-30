@@ -1,0 +1,158 @@
+/* Variables */
+
+:root {
+    --basic-black: #000000;
+    --basic-carbon: #231F20;
+    --basic-dark-grey: #333333;
+    --basic-white: #ffffff;
+    --basic-blue: #81B3D2;
+    --basic-dark-orange: #766357;
+    --basic-light-gray: #F2F2F2;
+    --basic-gray: #666666;
+    --basic-dark: #aba9a7;
+    --basic-beige: #EEEEEE;
+
+    --special-blue: #669ec0;
+    --special-light-blue: #5496BD;
+    --special-dark-orange: #604E43;
+    --special-brown: #503e33;
+}
+
+    /* Global */
+
+.page-body {
+    min-width: 1200px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: var(--basic-black);
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+    background-image: url("../img/bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Main navigation */
+
+.main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.site-navigation a {
+    color: var(--basic-black);
+}
+
+/* Title */
+
+.title-subtitle {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.title-text {
+    line-height: 26px;
+    text-align: center;
+}
+
+/*Content*/
+
+.content {
+    background-color: var(--basic-blue);
+}
+
+.content-heading {
+    font-size: 21px;
+    line-height: 21px;  
+    
+}
+
+.content-img {
+    background-color: var(--basic-dark);
+    border: none;
+}
+
+/*Services*/
+
+.services-list {
+    list-style: none;
+}
+
+  /*Advantage*/
+
+.advantage-list {
+    list-style: none;
+    background-color: var(--basic-beige);
+}
+
+/*Reservation*/
+
+.reservation {
+    text-align: center;
+}
+
+.reservation-heading {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+}
+
+/*Map*/
+
+.map-img {
+    background-color: var(--basic-dark);
+}
+
+/*Footer*/
+
+.footer-contact {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.footer-phone {
+    color: var(--basic-black);
+    text-decoration: underline;
+}
+
+.footer-social {
+    text-align: center;
+    list-style: none;
+}
+
+
+.footer-social ul {
+    list-style: none;
+}
+
+.social-button {
+    background-color: var(--basic-blue);
+    border: 8px solid var(--basic-blue);
+}
+
+.footer-copyright {
+    font-size: 14px;
+    line-height: 26px;
+}
+
