@@ -54,23 +54,32 @@ img {
 .social-list,
 .advantage-list,
 .services-list,
-.footer-social {
+.footer-social,
+.infrastructure-list,
+.housing-list,
+.sorting-list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.navigation-list {
+.navigation-list,
+.sorting-item-type {
     color: var(--basic-black);
 }
 
 /* Title */
 
 .title-subtitle,
-.footer-contact {
+.footer-contact,
+text,
+.hotel-link,
+.motel-link,
+.apartments-link {
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
+    color: var(--basic-black)
 }
 
 .title-text {
@@ -90,7 +99,10 @@ img {
     
 }
 
-.content-img {
+.content-img,
+.hotel-img,
+.motel-img,
+.apartments-img {
     background-color: var(--basic-dark);
     border: none;
 }
@@ -121,6 +133,8 @@ img {
     background-color: var(--basic-dark);
 }
 
+
+
 /*Footer*/
 
 
@@ -129,9 +143,13 @@ img {
     text-decoration: underline;
 }
 
-.social-button {
+.social-button,
+.hotel-details,
+.motel-details,
+.apartments-details {
     background-color: var(--basic-blue);
     border: 8px solid var(--basic-blue);
+    color: var(--basic-white)
 }
 
 .footer-copyright {
@@ -139,3 +157,44 @@ img {
     line-height: 26px;
 }
 
+.infrastructure,
+.housing,
+.price {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.filters {
+    color: var(--basic-white);
+    background-color: var(--basic-dark);
+}
+.sorting-list {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.sorting-item-price {
+    color: var(--basic-blue);
+}
+
+.sorting-item-type {
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
+
+.hotel-reservation,
+.motel-reservation,
+.apartments-reservation {
+    background-color: var(--basic-dark-orange);
+    border: 8px solid var(--basic-dark-orange);
+    color: var(--basic-white)
+}
+
+.hotel-rating,
+.motel-rating,
+.apartments-rating {
+    background-color: var(--basic-light-gray);
+    border: 8px solid var(--basic-light-gray);
+    color: var(--basic-gray)
+}
