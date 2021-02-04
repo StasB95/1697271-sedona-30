@@ -80,13 +80,11 @@ img {
     color: var(--basic-black);
 }
 
-
-
 /* Title */
 
 .title-subtitle,
 .footer-contact,
-text,
+.text,
 .hotel-link,
 .motel-link,
 .apartments-link {
@@ -99,6 +97,8 @@ text,
 .title-text {
     line-height: 26px;
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 /*Content*/
@@ -113,7 +113,8 @@ text,
 .content-img,
 .hotel-img,
 .motel-img,
-.apartments-img {
+.apartments-img,
+.map-img {
     background-color: var(--basic-dark);
     border: none;
 }
@@ -128,9 +129,11 @@ text,
 
 .reservation,
 .footer-social,
-.title-subtitle,
+.title,
 .services-item,
-.advantage-item {
+.advantage-item,
+.picture,
+.main-header-logo {
     text-align: center;
 }
 
@@ -140,16 +143,7 @@ text,
     line-height: 24px;
 }
 
-/*Map*/
-
-.map-img {
-    background-color: var(--basic-dark);
-}
-
-
-
 /*Footer*/
-
 
 .footer-phone {
     color: var(--basic-black);
@@ -224,11 +218,8 @@ text,
     column-gap: 40px;
 }
 
-
-
 .title {
-    width: 1200px;
-    height: 272px;
+    margin-top: 100px;
 }
 
 .content-desc-city,
@@ -237,7 +228,12 @@ text,
     height: 256px;  
     background-color: var(--basic-blue);
     text-align: center;
-    
+}
+
+.content-desc-city,
+.content-img,
+.map {
+    margin-left: 75px;
 }
 
 .advantage-item {
@@ -251,4 +247,29 @@ text,
 .main-footer {
     width: 1200px;
     height: 120px;
+}
+
+.picture-welcome {
+   margin-top: -550px;
+}
+
+.picture-background {
+    margin-bottom: -100px;
+}
+
+.picture-frame {
+    margin-bottom: -60px;
+}
+
+.content {
+    display: flex;
+  flex-wrap: wrap;
+}
+
+.content-house {
+    margin-left: 0px;
+}
+
+.advantage {
+    margin-top: -62px;
 }
