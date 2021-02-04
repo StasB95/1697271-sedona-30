@@ -31,6 +31,11 @@
     color: var(--basic-black);
     text-transform: uppercase;
     background-color: var(--basic-white);
+
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
 }
 
 a {
@@ -42,9 +47,16 @@ img {
     height: auto;
 }
 
+/* Grid */
+
+.page {
+    height: 100%;
+}
+
 /* Main navigation */
 
 .main-navigation {
+    display: grid;
     font-size: 14px;
     line-height: 26px;
     font-weight: bold;
@@ -68,6 +80,8 @@ img {
     color: var(--basic-black);
 }
 
+
+
 /* Title */
 
 .title-subtitle,
@@ -89,14 +103,11 @@ text,
 
 /*Content*/
 
-.content {
-    background-color: var(--basic-blue);
-}
 
 .content-heading {
     font-size: 21px;
     line-height: 21px;  
-    
+    padding-top: 47px;
 }
 
 .content-img,
@@ -117,7 +128,9 @@ text,
 
 .reservation,
 .footer-social,
-.title-subtitle {
+.title-subtitle,
+.services-item,
+.advantage-item {
     text-align: center;
 }
 
@@ -197,4 +210,45 @@ text,
     background-color: var(--basic-light-gray);
     border: 8px solid var(--basic-light-gray);
     color: var(--basic-gray)
+}
+
+.services-list,
+.advantage-list,
+.main-footer {
+    display: grid;
+    width: 1200px;
+    height: 330px;
+    margin: auto;
+    margin-top: 55px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+
+
+
+.title {
+    width: 1200px;
+    height: 272px;
+}
+
+.content-desc-city,
+.content-desc-bridge {
+    width: 400px;
+    height: 256px;  
+    background-color: var(--basic-blue);
+    text-align: center;
+    
+}
+
+.advantage-item {
+    margin-top: 47px;
+}
+
+.advantage-list {
+    height: 256px;
+}
+
+.main-footer {
+    width: 1200px;
+    height: 120px;
 }
