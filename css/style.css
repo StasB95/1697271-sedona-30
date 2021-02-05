@@ -230,11 +230,7 @@ img {
     text-align: center;
 }
 
-.content-desc-city,
-.content-img,
-.map {
-    margin-left: 75px;
-}
+
 
 .advantage-item {
     margin-top: 47px;
@@ -261,15 +257,28 @@ img {
     margin-bottom: -60px;
 }
 
-.content {
+.content,
+.map,
+.main-navigation,
+.title {
     display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.content-house {
-    margin-left: 0px;
+.title {
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .advantage {
     margin-top: -62px;
 }
+
+.picture {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 28px;
+}
+
