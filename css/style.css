@@ -11,6 +11,7 @@
     --basic-gray: #666666;
     --basic-dark: #aba9a7;
     --basic-beige: #EEEEEE;
+    --basic-dark-beige: #E5E5E5;
 
     --special-blue: #669ec0;
     --special-light-blue: #5496BD;
@@ -172,9 +173,6 @@ img {
     line-height: 21px;
 }
 
-.filters {
-    color: var(--basic-white);
-    background-color: var(--basic-dark);
 }
 .sorting-list {
     font-size: 12px;
@@ -282,3 +280,75 @@ img {
     padding: 40px 28px;
 }
 
+.infrastructure,
+.housing {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.filters {
+    display: flex;
+    width: 1200px;
+    height: 217px;
+    margin: 0 auto;
+    color: var(--basic-white);
+    background-image: url("../img/background.jpg");
+}
+
+.breadcrumbs,
+.hotel,
+.motel,
+.apartments {
+    display: flex;
+   
+    width: 1200px;
+    margin: 30px auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--basic-dark-beige)
+}
+
+.housing,
+.infrastructure,
+.price,
+.hotel-img,
+.motel-img,
+.apartments-img {
+    margin-left: 72px;
+}
+
+.hotel-details,
+.motel-details,
+.apartments-details {
+    width: 110px;
+    height: 27px;
+    margin-right: 6px;
+}
+
+.hotel-reservation,
+.motel-reservation,
+.apartments-reservation {
+    width: 142px;
+    height: 27px;
+    padding: 0;
+    margin: 0;
+}
+
+.hotel-rating,
+.motel-rating,
+.apartments-rating {
+    width: 110px;
+    height: 27px;
+}
+
+.hotel-link,
+.motel-link,
+.apartments-link {
+    margin-left: 29px;
+}
+
+.hotel-information,
+.motel-information,
+.apartments-information  
+    margin-top: 7px;
+}
