@@ -173,7 +173,6 @@ img {
     line-height: 21px;
 }
 
-}
 .sorting-list {
     font-size: 12px;
     line-height: 18px;
@@ -349,6 +348,6 @@ img {
 
 .hotel-information,
 .motel-information,
-.apartments-information  
+.apartments-information  {
     margin-top: 7px;
 }
