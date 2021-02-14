@@ -17,6 +17,7 @@
     --special-light-blue: #5496BD;
     --special-dark-orange: #604E43;
     --special-brown: #503e33;
+    --special-purplish-pink: #BDBBBC;
 }
 
     /* Global */
@@ -391,4 +392,21 @@ img {
  
 .navigation-list {
     padding: 0px 73px;
+}
+ 
+.social-button:hover {
+    background-color: var(--special-blue);
+}
+
+.social-button:active {
+    background-color: var(--special-light-blue);
+    opacity: 0.3;
+}
+
+.button:hover path {
+    fill: var(--basic-blue);
+}
+
+.button:active path {
+    fill: var(--special-purplish-pink);
 }
