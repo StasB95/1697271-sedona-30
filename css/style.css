@@ -234,23 +234,11 @@ img {
     border-left: 2px solid var(--basic-white);
 }
 
-.filter-input-checkbox:checked + .filter-label::after {
-    content: "";
-    position: absolute;
-    z-index: 100;
-    top: 0px;
-    left: 0px;
-    width: 27px;
-    height: 23px;
-    background-image: url("../img/check.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-}
 
 .filter-input-checkbox + .filter-label::before {
     content: "";
     position: absolute;
-    z-index: 200;
+    z-index: 100;
     left: 0px;
     top: 0;
     width: 19px;
@@ -260,6 +248,18 @@ img {
 }
 
  
+.filter-input-checkbox:checked + .filter-label::after {
+    content: "";
+    position: absolute;
+    z-index: 200;
+    top: 0px;
+    left: 4px;
+    width: 27px;
+    height: 23px;
+    background-image: url("../img/check.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
 
 .filter-item {
     grid-column-start: 4;
