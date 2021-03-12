@@ -20,6 +20,7 @@
     --special-brown: #503e33;
     --special-purplish-pink: #BDBBBC;
     --special-light-grey: #ababab;
+    --special-silver: #cccccc;
 }
 
     /* Global */
@@ -49,8 +50,9 @@
 .page {
     width: 1200px;
     margin: 0px auto;
-    box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+    box-shadow: 0px 5px 15px var(--special-silver);
 }
+
 a {
     text-decoration: none;
 }
@@ -59,7 +61,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-
 
 /* Main navigation */
 
@@ -526,7 +527,7 @@ img {
     background-color: var(--basic-light-gray);
 }
 
-.grown-recntagle {
+.grown-rectangle {
     position: absolute;
     top: 17px;
     left: 120px;
@@ -538,8 +539,9 @@ img {
     left: 205px;
 }
 
+
  
-.children-recntagle {
+.children-rectangle {
     position: absolute;
     top: 17px;
     right: 92px;
@@ -561,18 +563,18 @@ img {
 
 .calendar-arrival:hover path,
 .calendar-departure:hover path,
-.grown-recntagle:hover path,
+.grown-rectangle:hover path,
 .grown-union:hover path,
-.children-recntagle:hover path,
+.children-rectangle:hover path,
 .children-union:hover path {
     fill: var(--basic-black);
 }
 
 .calendar-arrival:active path,
 .calendar-departure:active path,
-.grown-recntagle:active path,
+.grown-rectangle:active path,
 .grown-union:active path,
-.children-recntagle:active path,
+.children-rectangle:active path,
 .children-union:active path {
     fill: var(--basic-blue);
 }
@@ -691,7 +693,7 @@ img {
 
 .sorting-svg-price,
 .sorting-svg-rating,
-.sorting-svg-tupe {
+.sorting-svg-type {
     display: flex;   
 }
 
